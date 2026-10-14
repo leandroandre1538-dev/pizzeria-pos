@@ -65,7 +65,7 @@ Si no carga, Windows puede pedirte permitir Node.js en el firewall.
    pegalo y dale **Run**. Esto carga la carta completa, los adicionales y tres
    promociones de ejemplo.
 6. Ve a **Project Settings → API** y copia dos datos:
-   - **Project URL** → sera `NEXT_PUBLIC_SUPABASE_URL`
+   - **Project URL** → sera `SUPABASE_URL`
    - **service_role** (en *Project API keys*, dale a *Reveal*) → sera
      `SUPABASE_SERVICE_ROLE_KEY`
 
@@ -90,7 +90,7 @@ Si no carga, Windows puede pedirte permitir Node.js en el firewall.
 
    | Variable | Valor |
    |---|---|
-   | `NEXT_PUBLIC_SUPABASE_URL` | La *Project URL* de Supabase |
+   | `SUPABASE_URL` | La *Project URL* de Supabase |
    | `SUPABASE_SERVICE_ROLE_KEY` | La clave *service_role* de Supabase |
    | `RESEND_API_KEY` | La clave de Resend (`re_...`) |
    | `CORREO_REMITENTE` | `Marocchinos POS <onboarding@resend.dev>` |

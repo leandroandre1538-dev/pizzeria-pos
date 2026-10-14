@@ -15,12 +15,12 @@ let instancia = null;
 export function clienteSupabase() {
   if (instancia) return instancia;
 
-  const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  const url = process.env.SUPABASE_URL;
   const llave = process.env.SUPABASE_SERVICE_ROLE_KEY;
 
   if (!url || !llave) {
     throw new Error(
-      'Faltan las variables NEXT_PUBLIC_SUPABASE_URL y/o SUPABASE_SERVICE_ROLE_KEY.'
+      'Faltan las variables SUPABASE_URL y/o SUPABASE_SERVICE_ROLE_KEY.'
     );
   }
 
